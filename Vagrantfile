@@ -2,7 +2,8 @@ Vagrant.configure("2") do |config|
     config.vm.network "forwarded_port", guest: 80   , host: 80   ,  auto_correct: true
 	config.vm.network "forwarded_port", guest: 8100 , host: 8100 ,  auto_correct: true
 	config.vm.network "forwarded_port", guest: 35729, host: 35729,  auto_correct: true
-	
+	config.vm.network "forwarded_port", guest: 53703, host: 53703,  auto_correct: true
+	config.vm.network "forwarded_port", guest: 9001,  host: 9001,  auto_correct: true
 
     config.vm.provider :virtualbox do |vm, override|	
         vm.cpus       = 2
