@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Situações de Exceção
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <button ion-item *ngFor="let item of items" [navPush]="item.class">
+      {{ item.title }}
+    </button>  
+  </ion-list>
+</ion-content>
