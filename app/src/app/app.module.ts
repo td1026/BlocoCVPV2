@@ -69,10 +69,16 @@ import { TabsPage } from '../pages/tabs/tabs';
         import { SocorrismoSBVNeonatalPage }                  from '../pages/tab-socorrismo/socorrismosbv/socorrismosbvneonatal/socorrismosbvneonatal';
         import { SocorrismoSBVAPGARPage }                     from '../pages/tab-socorrismo/socorrismosbv/socorrismosbvapgar/socorrismosbvapgar';
 /*
-import { ListaComunicacoesPage } from '../pages/tab-Comunicacoes/listacomunicacoes/listacomunicacoes';
+
 import { ListaUtilidadesPage } from '../pages/tab-utilidades/listautilidades/listautilidades';
 */
+  import { ListaComunicacoesPage } from '../pages/tab-comunicacoes/listacomunicacoes/listacomunicacoes';
+    import { ComunicacoesMapRedeCVPPage } from '../pages/tab-comunicacoes/comunicacoesmapredecvp/comunicacoesmapredecvp';
 
+
+import { Locations } from '../providers/locations';
+import { GoogleMaps } from '../providers/google-maps';
+import { Connectivity } from '../providers/connectivity';
 @NgModule({
   declarations: [
     MyApp,
@@ -142,7 +148,9 @@ import { ListaUtilidadesPage } from '../pages/tab-utilidades/listautilidades/lis
     SocorrismoSBVAdultoPage,
     SocorrismoSBVPediatricoPage,
     SocorrismoSBVNeonatalPage,
-    SocorrismoSBVAPGARPage
+    SocorrismoSBVAPGARPage,
+    ListaComunicacoesPage,
+    ComunicacoesMapRedeCVPPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -215,8 +223,13 @@ import { ListaUtilidadesPage } from '../pages/tab-utilidades/listautilidades/lis
     SocorrismoSBVAdultoPage,
     SocorrismoSBVPediatricoPage,
     SocorrismoSBVNeonatalPage,
-    SocorrismoSBVAPGARPage
+    SocorrismoSBVAPGARPage,
+    ListaComunicacoesPage,
+    ComunicacoesMapRedeCVPPage
   ],
-  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
+  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler},
+  Locations, 
+  GoogleMaps, 
+  Connectivity]
 })
 export class AppModule {}

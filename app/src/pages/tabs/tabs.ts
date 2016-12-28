@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-
 import { HomePage } from '../home/home';
-import { ListaSocorrismoPage } from '../tab-socorrismo/listasocorrismo/listasocorrismo';
+import { ListaSocorrismoPage }   from '../tab-socorrismo/listasocorrismo/listasocorrismo';
+import { ListaComunicacoesPage } from '../tab-comunicacoes/listacomunicacoes/listacomunicacoes';
 
 @Component({
   templateUrl: 'tabs.html'
@@ -9,6 +9,7 @@ import { ListaSocorrismoPage } from '../tab-socorrismo/listasocorrismo/listasoco
 export class TabsPage {
   tab1Root: any = HomePage;
   tab2Root: any = ListaSocorrismoPage;
+  tab3Root: any = ListaComunicacoesPage;
 
   constructor() {
 
