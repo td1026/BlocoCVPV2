@@ -63,24 +63,15 @@ import { TabsPage } from '../pages/tabs/tabs';
         import { SocorrismoPediatricasFebrePage }             from '../pages/tab-socorrismo/socorrismopediatricas/socorrismopediatricasfebre/socorrismopediatricasfebre';
         import { SocorrismoPediatricasIntoxicacaoPage }       from '../pages/tab-socorrismo/socorrismopediatricas/socorrismopediatricasintoxicacao/socorrismopediatricasintoxicacao';
         import { SocorrismoPediatricasOVAPage }               from '../pages/tab-socorrismo/socorrismopediatricas/socorrismopediatricasova/socorrismopediatricasova';  
-
+      import { SocorrismoListaSBVPage }                       from '../pages/tab-socorrismo/socorrismosbv/socorrismolistasbv/socorrismolistasbv';
+        import { SocorrismoSBVAdultoPage }                    from '../pages/tab-socorrismo/socorrismosbv/socorrismosbvadulto/socorrismosbvadulto';
+        import { SocorrismoSBVPediatricoPage }                from '../pages/tab-socorrismo/socorrismosbv/socorrismosbvpediatrico/socorrismosbvpediatrico';
+        import { SocorrismoSBVNeonatalPage }                  from '../pages/tab-socorrismo/socorrismosbv/socorrismosbvneonatal/socorrismosbvneonatal';
+        import { SocorrismoSBVAPGARPage }                     from '../pages/tab-socorrismo/socorrismosbv/socorrismosbvapgar/socorrismosbvapgar';
 /*
 import { ListaComunicacoesPage } from '../pages/tab-Comunicacoes/listacomunicacoes/listacomunicacoes';
 import { ListaUtilidadesPage } from '../pages/tab-utilidades/listautilidades/listautilidades';
 */
-
-
-SocorrismoListaPediatricasPage
-SocorrismoPediatricasTAPPage
-SocorrismoPediatricasAsmaPage
-SocorrismoPediatricasConvulsoesPage
-SocorrismoPediatricasDiarreiaPage
-SocorrismoPediatricasDesidratacaoPage
-SocorrismoPediatricasEstridorPage
-SocorrismoPediatricasFebrePage
-SocorrismoPediatricasIntoxicacaoPage
-SocorrismoPediatricasOVAPage
-
 
 @NgModule({
   declarations: [
@@ -146,7 +137,12 @@ SocorrismoPediatricasOVAPage
     SocorrismoPediatricasEstridorPage,
     SocorrismoPediatricasFebrePage,
     SocorrismoPediatricasIntoxicacaoPage,
-    SocorrismoPediatricasOVAPage
+    SocorrismoPediatricasOVAPage,
+    SocorrismoListaSBVPage,
+    SocorrismoSBVAdultoPage,
+    SocorrismoSBVPediatricoPage,
+    SocorrismoSBVNeonatalPage,
+    SocorrismoSBVAPGARPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -214,7 +210,12 @@ SocorrismoPediatricasOVAPage
     SocorrismoPediatricasEstridorPage,
     SocorrismoPediatricasFebrePage,
     SocorrismoPediatricasIntoxicacaoPage,
-    SocorrismoPediatricasOVAPage
+    SocorrismoPediatricasOVAPage,
+    SocorrismoListaSBVPage,
+    SocorrismoSBVAdultoPage,
+    SocorrismoSBVPediatricoPage,
+    SocorrismoSBVNeonatalPage,
+    SocorrismoSBVAPGARPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

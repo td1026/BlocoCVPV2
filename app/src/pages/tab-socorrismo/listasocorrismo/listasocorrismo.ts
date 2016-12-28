@@ -9,7 +9,7 @@ import { SocorrismoListaExcecaoPage } from '../socorrismoexcecao/socorrismolista
 import { SocorrismoListaMedicasPage } from '../socorrismomedicas/socorrismolistamedicas/socorrismolistamedicas';
 import { SocorrismoListaTraumaPage } from '../socorrismotrauma/socorrismolistatrauma/socorrismolistatrauma';
 import { SocorrismoListaPediatricasPage } from '../socorrismopediatricas/socorrismolistapediatricas/socorrismolistapediatricas';
-
+import { SocorrismoListaSBVPage } from '../socorrismosbv/socorrismolistasbv/socorrismolistasbv';
 
 @Component({
   selector: 'page-listasocorrismo',
@@ -41,7 +41,7 @@ export class ListaSocorrismoPage {
       },
       {
         'title': 'Suporte Básico de Vida',
-        'class': null,
+        'class': SocorrismoListaSBVPage,
         'description': 'A powerful Javascript framework for building single page apps. Angular is open source, and maintained by Google.',
         'icon': '#E63135'
       },
