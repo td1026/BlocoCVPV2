@@ -26,7 +26,6 @@ export class Locations {
  
             this.http.get('assets/json/repetidores.json').map(res => res.json()).subscribe(data => {
                 this.data = data.locations;
-                console.log(this.data);
                 resolve(this.data);
             });
         });

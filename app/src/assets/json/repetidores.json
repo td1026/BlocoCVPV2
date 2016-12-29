@@ -1,11 +1,11 @@
 {
     "locations": [
         {
-            "title": "HUC",
+            "title": "Pediatrico",
             "canal": "15",
             "plataforma": "2",
-            "latitude": 40.220414,
-            "longitude": -8.412684
+            "latitude": 40.224458,
+            "longitude": -8.413344
         },
         {
             "title": "CHC",
@@ -15,11 +15,11 @@
             "longitude": -8.458753
         },
         {
-            "title": "Pediatrico",
+            "title": "HUC",
             "canal": "15",
             "plataforma": "2",
-            "latitude": 40.224458,
-            "longitude": -8.413344
+            "latitude": 40.220414,
+            "longitude": -8.412684
         }
     ]
 }

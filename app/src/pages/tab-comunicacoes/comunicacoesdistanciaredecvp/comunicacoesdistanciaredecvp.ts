@@ -23,6 +23,17 @@ export class ComunicacoesDistanciaRedeCVPPage {
             for(let item of this.itens){
                 item.distancia = this.DistanciaEntrePontos(data.coords.latitude,data.coords.longitude,item.latitude,item.longitude);
             }
+
+            var sortedArray: string[] = this.itens.sort((n1,n2) => {
+                if (n1.distancia > n2.distancia) {
+                    return 1;
+                }
+                if (n1.distancia < n2.distancia) {
+                    return -1;
+                }
+
+                return 0;
+            });
         });
         this.locations.load2().subscribe((params:any)=>{
             var it = params.locations;
