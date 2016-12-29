@@ -25,9 +25,14 @@ export class Locations {
         return new Promise(resolve => {
  
             this.http.get('assets/json/repetidores.json').map(res => res.json()).subscribe(data => {
-                this.data = data.locations
+                this.data = data.locations;
+                console.log(this.data);
                 resolve(this.data);
             });
         });
+    }
+    load2(){
+        var itens: any;
+        return this.http.get('assets/json/repetidores.json').map(res => res.json());
     }
 }

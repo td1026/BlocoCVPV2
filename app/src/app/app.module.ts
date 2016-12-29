@@ -74,7 +74,7 @@ import { ListaUtilidadesPage } from '../pages/tab-utilidades/listautilidades/lis
 */
   import { ListaComunicacoesPage } from '../pages/tab-comunicacoes/listacomunicacoes/listacomunicacoes';
     import { ComunicacoesMapRedeCVPPage } from '../pages/tab-comunicacoes/comunicacoesmapredecvp/comunicacoesmapredecvp';
-
+    import { ComunicacoesDistanciaRedeCVPPage } from '../pages/tab-comunicacoes/comunicacoesdistanciaredecvp/comunicacoesdistanciaredecvp';
 
 import { Locations } from '../providers/locations';
 import { GoogleMaps } from '../providers/google-maps';
@@ -150,7 +150,8 @@ import { Connectivity } from '../providers/connectivity';
     SocorrismoSBVNeonatalPage,
     SocorrismoSBVAPGARPage,
     ListaComunicacoesPage,
-    ComunicacoesMapRedeCVPPage
+    ComunicacoesMapRedeCVPPage,
+    ComunicacoesDistanciaRedeCVPPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -225,7 +226,8 @@ import { Connectivity } from '../providers/connectivity';
     SocorrismoSBVNeonatalPage,
     SocorrismoSBVAPGARPage,
     ListaComunicacoesPage,
-    ComunicacoesMapRedeCVPPage
+    ComunicacoesMapRedeCVPPage,
+    ComunicacoesDistanciaRedeCVPPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler},
   Locations, 

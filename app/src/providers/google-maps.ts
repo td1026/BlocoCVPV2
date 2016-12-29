@@ -79,13 +79,13 @@ export class GoogleMaps {
         Geolocation.getCurrentPosition().then((position) => {
   
           // UNCOMMENT FOR NORMAL USE
-          //let latLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+          let latLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
   
-          let latLng = new google.maps.LatLng(40.713744, -74.009056);
+          //let latLng = new google.maps.LatLng(40.713744, -74.009056);
   
           let mapOptions = {
             center: latLng,
-            zoom: 15,
+            zoom: 8,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             fullscreenControl:false
           }
@@ -139,8 +139,12 @@ export class GoogleMaps {
       animation: google.maps.Animation.DROP,
       position: latLng
     });
+    var contentString =    
+      '<h1>' + location.title + '</h1>'+
+      '<p>Canal: <b>' + location.canal + '</b></p>' +
+      '<p>Plataforma: <b>' + location.plataforma + '</b></p>';
     var infowindow = new google.maps.InfoWindow({
-        content: location.title
+        content: contentString
     });
     marker.addListener('click', function() {
         infowindow.open(this.map, marker);
