@@ -11,9 +11,6 @@ import { Geolocation } from 'ionic-native';
 export class ComunicacoesDistanciaRedeCVPPage {
 
     private itens: any = [];
-	private lat: number;
-    private log: number;
-
     private watch: any;
 
 
@@ -24,7 +21,7 @@ export class ComunicacoesDistanciaRedeCVPPage {
                 item.distancia = this.DistanciaEntrePontos(data.coords.latitude,data.coords.longitude,item.latitude,item.longitude);
             }
 
-            var sortedArray: string[] = this.itens.sort((n1,n2) => {
+            this.itens.sort((n1,n2) => {
                 if (n1.distancia > n2.distancia) {
                     return 1;
                 }

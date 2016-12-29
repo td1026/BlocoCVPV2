@@ -68,6 +68,15 @@ import { TabsPage } from '../pages/tabs/tabs';
         import { SocorrismoSBVPediatricoPage }                from '../pages/tab-socorrismo/socorrismosbv/socorrismosbvpediatrico/socorrismosbvpediatrico';
         import { SocorrismoSBVNeonatalPage }                  from '../pages/tab-socorrismo/socorrismosbv/socorrismosbvneonatal/socorrismosbvneonatal';
         import { SocorrismoSBVAPGARPage }                     from '../pages/tab-socorrismo/socorrismosbv/socorrismosbvapgar/socorrismosbvapgar';
+      import { SocorrismoListaObstetricasPage }               from '../pages/tab-socorrismo/socorrismoobstetricas/socorrismolistaobstetricas/socorrismolistaobstetricas';
+        import { SocorrismoObstetricasPerguntasPage }         from '../pages/tab-socorrismo/socorrismoobstetricas/socorrismoobstetricasperguntas/socorrismoobstetricasperguntas';
+        import { SocorrismoObstetricasPartoPage }             from '../pages/tab-socorrismo/socorrismoobstetricas/socorrismoobstetricasparto/socorrismoobstetricasparto';
+
+
+
+
+
+
 /*
 
 import { ListaUtilidadesPage } from '../pages/tab-utilidades/listautilidades/listautilidades';
@@ -149,9 +158,13 @@ import { Connectivity } from '../providers/connectivity';
     SocorrismoSBVPediatricoPage,
     SocorrismoSBVNeonatalPage,
     SocorrismoSBVAPGARPage,
+    SocorrismoListaObstetricasPage,
+    SocorrismoObstetricasPerguntasPage,
+    SocorrismoObstetricasPartoPage,
     ListaComunicacoesPage,
     ComunicacoesMapRedeCVPPage,
     ComunicacoesDistanciaRedeCVPPage
+    
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -225,6 +238,9 @@ import { Connectivity } from '../providers/connectivity';
     SocorrismoSBVPediatricoPage,
     SocorrismoSBVNeonatalPage,
     SocorrismoSBVAPGARPage,
+    SocorrismoListaObstetricasPage,
+    SocorrismoObstetricasPerguntasPage,
+    SocorrismoObstetricasPartoPage,
     ListaComunicacoesPage,
     ComunicacoesMapRedeCVPPage,
     ComunicacoesDistanciaRedeCVPPage

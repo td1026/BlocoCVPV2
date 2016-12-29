@@ -10,6 +10,8 @@ import { SocorrismoListaMedicasPage } from '../socorrismomedicas/socorrismolista
 import { SocorrismoListaTraumaPage } from '../socorrismotrauma/socorrismolistatrauma/socorrismolistatrauma';
 import { SocorrismoListaPediatricasPage } from '../socorrismopediatricas/socorrismolistapediatricas/socorrismolistapediatricas';
 import { SocorrismoListaSBVPage } from '../socorrismosbv/socorrismolistasbv/socorrismolistasbv';
+import { SocorrismoListaObstetricasPage } from '../socorrismoobstetricas/socorrismolistaobstetricas/socorrismolistaobstetricas';
+
 
 @Component({
   selector: 'page-listasocorrismo',
@@ -47,7 +49,7 @@ export class ListaSocorrismoPage {
       },
       {
         'title': 'Emergências Obstétricas',
-        'class': null,
+        'class': SocorrismoListaObstetricasPage,
         'description': 'A powerful Javascript framework for building single page apps. Angular is open source, and maintained by Google.',
         'icon': '#E63135'
       },

@@ -31,7 +31,6 @@ export class Locations {
         });
     }
     load2(){
-        var itens: any;
         return this.http.get('assets/json/repetidores.json').map(res => res.json());
     }
 }
