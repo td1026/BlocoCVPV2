@@ -1,0 +1,11 @@
+@import models.entity.Medicamento
+
+@(list: List[Medicamento])
+
+@main("Welcome to Play") {
+
+    <p>@list.size</p>
+    @for(p <- list) {
+        <p>@p.getId</p>
+    }
+}

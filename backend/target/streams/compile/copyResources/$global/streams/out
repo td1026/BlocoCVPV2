@@ -1,6 +1,6 @@
 [0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/home/telmo/dev/AppRegistos/backend/conf/routes,/home/telmo/dev/AppRegistos/backend/target/scala-2.11/classes/routes)[0m
-[0m[[0mdebug[0m] [0m	(/home/telmo/dev/AppRegistos/backend/conf/logback.xml,/home/telmo/dev/AppRegistos/backend/target/scala-2.11/classes/logback.xml)[0m
-[0m[[0mdebug[0m] [0m	(/home/telmo/dev/AppRegistos/backend/conf/META-INF,/home/telmo/dev/AppRegistos/backend/target/scala-2.11/classes/META-INF)[0m
-[0m[[0mdebug[0m] [0m	(/home/telmo/dev/AppRegistos/backend/conf/application.conf,/home/telmo/dev/AppRegistos/backend/target/scala-2.11/classes/application.conf)[0m
-[0m[[0mdebug[0m] [0m	(/home/telmo/dev/AppRegistos/backend/conf/META-INF/persistence.xml,/home/telmo/dev/AppRegistos/backend/target/scala-2.11/classes/META-INF/persistence.xml)[0m
+[0m[[0mdebug[0m] [0m	(/home/telmo/dev/BlocoCVPV2/backend/conf/routes,/home/telmo/dev/BlocoCVPV2/backend/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/telmo/dev/BlocoCVPV2/backend/conf/logback.xml,/home/telmo/dev/BlocoCVPV2/backend/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/home/telmo/dev/BlocoCVPV2/backend/conf/META-INF,/home/telmo/dev/BlocoCVPV2/backend/target/scala-2.11/classes/META-INF)[0m
+[0m[[0mdebug[0m] [0m	(/home/telmo/dev/BlocoCVPV2/backend/conf/application.conf,/home/telmo/dev/BlocoCVPV2/backend/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/telmo/dev/BlocoCVPV2/backend/conf/META-INF/persistence.xml,/home/telmo/dev/BlocoCVPV2/backend/target/scala-2.11/classes/META-INF/persistence.xml)[0m

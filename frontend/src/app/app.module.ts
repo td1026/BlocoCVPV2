@@ -77,15 +77,15 @@ import { TabsPage } from '../pages/tabs/tabs';
       import { SocorrismoOxigenioMetodosPage }              from '../pages/tab-socorrismo/socorrismooxigenio/socorrismooxigeniometodos/socorrismooxigeniometodos';
       import { SocorrismoOxigenioBotijasPage }              from '../pages/tab-socorrismo/socorrismooxigenio/socorrismooxigeniobotijas/socorrismooxigeniobotijas';
     import { SocorrismoListaPsicologicasPage }              from '../pages/tab-socorrismo/socorrismopsicologicas/socorrismolistapsicologicas/socorrismolistapsicologicas';
-        import { SocorrismoPsicologicasAnsiedadePage }         from '../pages/tab-socorrismo/socorrismopsicologicas/socorrismopsicologicasansiedade/socorrismopsicologicasansiedade';
-        import { SocorrismoPsicologicasDepressaoPage }         from '../pages/tab-socorrismo/socorrismopsicologicas/socorrismopsicologicasdepressao/socorrismopsicologicasdepressao';
-        import { SocorrismoPsicologicasSuicidaPage }           from '../pages/tab-socorrismo/socorrismopsicologicas/socorrismopsicologicassuicida/socorrismopsicologicassuicida';
-        import { SocorrismoPsicologicasSurtoPage }             from '../pages/tab-socorrismo/socorrismopsicologicas/socorrismopsicologicassurto/socorrismopsicologicassurto';
-        import { SocorrismoPsicologicasCatatoniaPage }         from '../pages/tab-socorrismo/socorrismopsicologicas/socorrismopsicologicascatatonia/socorrismopsicologicascatatonia';
-        import { SocorrismoPsicologicasAgressividadePage }     from '../pages/tab-socorrismo/socorrismopsicologicas/socorrismopsicologicasagressividade/socorrismopsicologicasagressividade';
-        import { SocorrismoPsicologicasDomesticaPage }         from '../pages/tab-socorrismo/socorrismopsicologicas/socorrismopsicologicasdomestica/socorrismopsicologicasdomestica';
-        import { SocorrismoPsicologicasTratosPage }            from '../pages/tab-socorrismo/socorrismopsicologicas/socorrismopsicologicastratos/socorrismopsicologicastratos';
-        import { SocorrismoPsicologicasViolacaoPage }          from '../pages/tab-socorrismo/socorrismopsicologicas/socorrismopsicologicasviolacao/socorrismopsicologicasviolacao';
+        import { SocorrismoPsicologicasAnsiedadePage }      from '../pages/tab-socorrismo/socorrismopsicologicas/socorrismopsicologicasansiedade/socorrismopsicologicasansiedade';
+        import { SocorrismoPsicologicasDepressaoPage }      from '../pages/tab-socorrismo/socorrismopsicologicas/socorrismopsicologicasdepressao/socorrismopsicologicasdepressao';
+        import { SocorrismoPsicologicasSuicidaPage }        from '../pages/tab-socorrismo/socorrismopsicologicas/socorrismopsicologicassuicida/socorrismopsicologicassuicida';
+        import { SocorrismoPsicologicasSurtoPage }          from '../pages/tab-socorrismo/socorrismopsicologicas/socorrismopsicologicassurto/socorrismopsicologicassurto';
+        import { SocorrismoPsicologicasCatatoniaPage }      from '../pages/tab-socorrismo/socorrismopsicologicas/socorrismopsicologicascatatonia/socorrismopsicologicascatatonia';
+        import { SocorrismoPsicologicasAgressividadePage }  from '../pages/tab-socorrismo/socorrismopsicologicas/socorrismopsicologicasagressividade/socorrismopsicologicasagressividade';
+        import { SocorrismoPsicologicasDomesticaPage }      from '../pages/tab-socorrismo/socorrismopsicologicas/socorrismopsicologicasdomestica/socorrismopsicologicasdomestica';
+        import { SocorrismoPsicologicasTratosPage }         from '../pages/tab-socorrismo/socorrismopsicologicas/socorrismopsicologicastratos/socorrismopsicologicastratos';
+        import { SocorrismoPsicologicasViolacaoPage }       from '../pages/tab-socorrismo/socorrismopsicologicas/socorrismopsicologicasviolacao/socorrismopsicologicasviolacao';
   import { ListaComunicacoesPage }                          from '../pages/tab-comunicacoes/listacomunicacoes/listacomunicacoes';
     import { ComunicacoesRedeCVPPage }                      from '../pages/tab-comunicacoes/comunicacoesredecvp/comunicacoesredecvp';
     import { ComunicacoesMapRedeCVPPage }                   from '../pages/tab-comunicacoes/comunicacoesmapredecvp/comunicacoesmapredecvp';
@@ -98,14 +98,32 @@ import { TabsPage } from '../pages/tabs/tabs';
     import { ComunicacoesBandeirasPage }                    from '../pages/tab-comunicacoes/comunicacoesbandeiras/comunicacoesbandeiras';
     import { ComunicacoesMaritimosPage }                    from '../pages/tab-comunicacoes/comunicacoesmaritimos/comunicacoesmaritimos';
     import { ComunicacoesGruasPage }                        from '../pages/tab-comunicacoes/comunicacoesgruas/comunicacoesgruas';
-/*
+  import { ListaUtilidadesPage }                            from '../pages/tab-utilidades/listautilidades/listautilidades';
+    import { UtilidadesListaInsigniasPage }                 from '../pages/tab-utilidades/utilidadesinsignias/utilidadeslistainsignias/utilidadeslistainsignias';
+      import { UtilidadesInsigniasPSPPage }                 from '../pages/tab-utilidades/utilidadesinsignias/utilidadesinsigniaspsp/utilidadesinsigniaspsp';
+      import { UtilidadesInsigniasGNRPage }                 from '../pages/tab-utilidades/utilidadesinsignias/utilidadesinsigniasgnr/utilidadesinsigniasgnr';
+      import { UtilidadesInsigniasExercitoPage }            from '../pages/tab-utilidades/utilidadesinsignias/utilidadesinsigniasexercito/utilidadesinsigniasexercito';
+      import { UtilidadesInsigniasMarinhaPage }             from '../pages/tab-utilidades/utilidadesinsignias/utilidadesinsigniasmarinha/utilidadesinsigniasmarinha';
+      import { UtilidadesInsigniasForcaAeriaPage }          from '../pages/tab-utilidades/utilidadesinsignias/utilidadesinsigniasforcaaeria/utilidadesinsigniasforcaaeria';
+      import { UtilidadesInsigniasANPCPage }                from '../pages/tab-utilidades/utilidadesinsignias/utilidadesinsigniasanpc/utilidadesinsigniasanpc';
+      import { UtilidadesInsigniasBombeirosPage }           from '../pages/tab-utilidades/utilidadesinsignias/utilidadesinsigniasbombeiros/utilidadesinsigniasbombeiros';
+      import { UtilidadesInsigniasCVPPage }                 from '../pages/tab-utilidades/utilidadesinsignias/utilidadesinsigniascvp/utilidadesinsigniascvp';
+    import { UtilidadesPerigosasPage }                      from '../pages/tab-utilidades/utilidadesperigosas/utilidadesperigosas';
+    import { UtilidadesColapsadasPage }                     from '../pages/tab-utilidades/utilidadescolapsadas/utilidadescolapsadas';
+    import { UtilidadesMedidasPage }                        from '../pages/tab-utilidades/utilidadesmedidas/utilidadesmedidas';
+    import { UtilidadesConversoresPage }                    from '../pages/tab-utilidades/utilidadesconversores/utilidadesconversores';
 
-import { ListaUtilidadesPage } from '../pages/tab-utilidades/listautilidades/listautilidades';
-*/
-  
+
+
+
+
 import { Locations } from '../providers/locations';
 import { GoogleMaps } from '../providers/google-maps';
 import { Connectivity } from '../providers/connectivity';
+import { Medicamento } from '../models/medicamento';
+import { MedicamentoService } from '../services/medicamento.service';
+
+
 @NgModule({
   declarations: [
     MyApp,
@@ -205,7 +223,21 @@ import { Connectivity } from '../providers/connectivity';
     ComunicacoesTerraArPage,
     ComunicacoesBandeirasPage,
     ComunicacoesMaritimosPage,
-    ComunicacoesGruasPage    
+    ComunicacoesGruasPage,
+    ListaUtilidadesPage,
+    UtilidadesListaInsigniasPage,
+    UtilidadesInsigniasPSPPage,
+    UtilidadesInsigniasGNRPage,
+    UtilidadesInsigniasExercitoPage,
+    UtilidadesInsigniasMarinhaPage,
+    UtilidadesInsigniasForcaAeriaPage,
+    UtilidadesInsigniasANPCPage,
+    UtilidadesInsigniasBombeirosPage,
+    UtilidadesInsigniasCVPPage,
+    UtilidadesPerigosasPage,
+    UtilidadesColapsadasPage,
+    UtilidadesMedidasPage,
+    UtilidadesConversoresPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -308,11 +340,29 @@ import { Connectivity } from '../providers/connectivity';
     ComunicacoesTerraArPage,
     ComunicacoesBandeirasPage,
     ComunicacoesMaritimosPage,
-    ComunicacoesGruasPage    
+    ComunicacoesGruasPage,
+    ListaUtilidadesPage,
+    UtilidadesListaInsigniasPage,
+    UtilidadesInsigniasPSPPage,
+    UtilidadesInsigniasGNRPage,
+    UtilidadesInsigniasExercitoPage,
+    UtilidadesInsigniasMarinhaPage,
+    UtilidadesInsigniasForcaAeriaPage,
+    UtilidadesInsigniasANPCPage,
+    UtilidadesInsigniasBombeirosPage,
+    UtilidadesInsigniasCVPPage,
+    UtilidadesPerigosasPage,
+    UtilidadesColapsadasPage,
+    UtilidadesMedidasPage,
+    UtilidadesConversoresPage 
   ],
-  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler},
-  Locations, 
-  GoogleMaps, 
-  Connectivity]
+  providers: [
+    Locations, 
+    GoogleMaps, 
+    Connectivity,
+    Medicamento,
+    MedicamentoService,
+    {provide: ErrorHandler, useClass: IonicErrorHandler}
+  ]
 })
 export class AppModule {}

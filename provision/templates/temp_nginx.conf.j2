@@ -3,6 +3,11 @@ server {
     server_name  _;
 
     location / {
-        proxy_pass "http://10.0.2.15:8100";
+        proxy_pass "http://localhost:8100";
     }
+	
+	location /api/ {
+        proxy_pass "http://localhost:9000/api/";
+    }
+
 }

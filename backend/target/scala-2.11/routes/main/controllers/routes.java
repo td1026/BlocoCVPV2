@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/telmo/dev/AppRegistos/backend/conf/routes
-// @DATE:Mon Dec 26 18:29:05 WET 2016
+// @SOURCE:/home/telmo/dev/BlocoCVPV2/backend/conf/routes
+// @DATE:Tue Jan 03 16:36:31 WET 2017
 
 package controllers;
 

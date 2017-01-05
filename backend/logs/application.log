@@ -1,30 +1,343 @@
-2016-12-26 21:57:35,684 [WARN] from application in ForkJoinPool-1-worker-1 - application.conf @ file:/home/telmo/dev/AppRegistos/backend/target/scala-2.11/classes/application.conf: 18: user is deprecated, use username instead
-2016-12-26 21:57:35,693 [INFO] from application in ForkJoinPool-1-worker-1 - Creating Pool for datasource 'default'
-2016-12-26 21:57:35,835 [INFO] from play.api.db.HikariCPConnectionPool in ForkJoinPool-1-worker-1 - datasource [default] bound to JNDI as DefaultDS
-2016-12-26 21:57:35,877 [INFO] from play.api.db.DefaultDBApi in ForkJoinPool-1-worker-1 - Database [default] connected at jdbc:postgresql://95.95.106.16:5432/testedb
-2016-12-26 21:57:36,339 [INFO] from play.api.Play in ForkJoinPool-1-worker-1 - Application started (Dev)
-2016-12-26 21:58:18,027 [INFO] from application in application-akka.actor.default-dispatcher-29 - Shutting down connection pool.
-2016-12-26 21:58:18,150 [WARN] from application in application-akka.actor.default-dispatcher-29 - application.conf @ file:/home/telmo/dev/AppRegistos/backend/target/scala-2.11/classes/application.conf: 18: user is deprecated, use username instead
-2016-12-26 21:58:18,150 [INFO] from application in application-akka.actor.default-dispatcher-29 - Creating Pool for datasource 'default'
-2016-12-26 21:58:18,178 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-29 - datasource [default] bound to JNDI as DefaultDS
-2016-12-26 21:58:18,195 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-29 - Database [default] connected at jdbc:postgresql://95.95.106.16:5432/testedb
-2016-12-26 21:58:18,250 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-29 - Application started (Dev)
-2016-12-26 21:58:36,742 [INFO] from application in application-akka.actor.default-dispatcher-7 - Shutting down connection pool.
-2016-12-26 21:58:36,814 [WARN] from application in application-akka.actor.default-dispatcher-7 - application.conf @ file:/home/telmo/dev/AppRegistos/backend/target/scala-2.11/classes/application.conf: 18: user is deprecated, use username instead
-2016-12-26 21:58:36,815 [INFO] from application in application-akka.actor.default-dispatcher-7 - Creating Pool for datasource 'default'
-2016-12-26 21:58:36,844 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-7 - datasource [default] bound to JNDI as DefaultDS
-2016-12-26 21:58:36,861 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-7 - Database [default] connected at jdbc:postgresql://95.95.106.16:5432/testedb
-2016-12-26 21:58:36,912 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-7 - Application started (Dev)
-2016-12-26 22:06:02,608 [INFO] from application in application-akka.actor.default-dispatcher-3 - Shutting down connection pool.
-2016-12-26 22:06:02,674 [WARN] from application in application-akka.actor.default-dispatcher-3 - application.conf @ file:/home/telmo/dev/AppRegistos/backend/target/scala-2.11/classes/application.conf: 18: user is deprecated, use username instead
-2016-12-26 22:06:02,674 [INFO] from application in application-akka.actor.default-dispatcher-3 - Creating Pool for datasource 'default'
-2016-12-26 22:06:02,702 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-3 - datasource [default] bound to JNDI as DefaultDS
-2016-12-26 22:06:02,721 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-3 - Database [default] connected at jdbc:postgresql://95.95.106.16:5432/testedb
-2016-12-26 22:06:02,767 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-3 - Application started (Dev)
-2016-12-26 22:06:22,857 [INFO] from application in application-akka.actor.default-dispatcher-6 - Shutting down connection pool.
-2016-12-26 22:06:22,925 [WARN] from application in application-akka.actor.default-dispatcher-6 - application.conf @ file:/home/telmo/dev/AppRegistos/backend/target/scala-2.11/classes/application.conf: 18: user is deprecated, use username instead
-2016-12-26 22:06:22,925 [INFO] from application in application-akka.actor.default-dispatcher-6 - Creating Pool for datasource 'default'
-2016-12-26 22:06:22,949 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-6 - datasource [default] bound to JNDI as DefaultDS
-2016-12-26 22:06:22,971 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-6 - Database [default] connected at jdbc:postgresql://95.95.106.16:5432/testedb
-2016-12-26 22:06:23,016 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-6 - Application started (Dev)
-2016-12-26 22:06:30,984 [INFO] from application in pool-4-thread-9 - Shutting down connection pool.
+2017-01-03 14:53:07,838 [INFO] from application in ForkJoinPool-1-worker-2 - Creating Pool for datasource 'default'
+2017-01-03 14:53:08,151 [INFO] from play.api.db.HikariCPConnectionPool in ForkJoinPool-1-worker-2 - datasource [default] bound to JNDI as DefaultDS
+2017-01-03 14:53:08,291 [INFO] from play.api.db.DefaultDBApi in ForkJoinPool-1-worker-2 - Database [default] connected at jdbc:postgresql://95.95.106.16:5432/testedb
+2017-01-03 14:53:08,661 [INFO] from play.api.Play in ForkJoinPool-1-worker-2 - Application started (Dev)
+2017-01-03 14:56:26,241 [ERROR] from application in netty-event-loop-6 - 
+
+! @72i3ddodn - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[Expected '}' but found 'EOF']
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27)
+	at scala.Option.map(Option.scala:145)
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49)
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44)
+	at scala.Option.map(Option.scala:145)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40)
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17)
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17)
+	at scala.util.Either$LeftProjection.map(Either.scala:377)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61)
+	at play.runsupport.Reloader$$anonfun$reload$1.apply(Reloader.scala:339)
+	at play.runsupport.Reloader$$anon$3.run(Reloader.scala:44)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:40)
+	at play.runsupport.Reloader.reload(Reloader.scala:337)
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:123)
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:121)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:39)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:409)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2017-01-03 14:56:42,509 [ERROR] from application in netty-event-loop-6 - 
+
+! @72i3demfg - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[ java.lang.String cannot be converted to java.util.List<models.entity.Medicamento>]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27)
+	at scala.Option.map(Option.scala:145)
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49)
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44)
+	at scala.Option.map(Option.scala:145)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40)
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17)
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17)
+	at scala.util.Either$LeftProjection.map(Either.scala:377)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61)
+	at play.runsupport.Reloader$$anonfun$reload$1.apply(Reloader.scala:339)
+	at play.runsupport.Reloader$$anon$3.run(Reloader.scala:44)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:40)
+	at play.runsupport.Reloader.reload(Reloader.scala:337)
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:123)
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:121)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:39)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:409)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2017-01-03 14:57:20,549 [INFO] from application in application-akka.actor.default-dispatcher-8 - Shutting down connection pool.
+2017-01-03 14:57:20,644 [INFO] from application in application-akka.actor.default-dispatcher-8 - Creating Pool for datasource 'default'
+2017-01-03 14:57:20,794 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-8 - datasource [default] bound to JNDI as DefaultDS
+2017-01-03 14:57:20,898 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-8 - Database [default] connected at jdbc:postgresql://95.95.106.16:5432/testedb
+2017-01-03 14:57:20,947 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-8 - Application started (Dev)
+2017-01-03 14:57:20,962 [ERROR] from application in application-akka.actor.default-dispatcher-4 - 
+
+! @72i3dh1ce - Internal server error, for (GET) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[RuntimeException: No EntityManager found in the context. Try to annotate your action method with @play.db.jpa.Transactional]]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:280)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:206)
+	at play.api.GlobalSettings$class.onError(GlobalSettings.scala:160)
+	at play.api.DefaultGlobal$.onError(GlobalSettings.scala:188)
+	at play.api.http.GlobalSettingsHttpErrorHandler.onServerError(HttpErrorHandler.scala:98)
+	at play.core.server.netty.PlayRequestHandler$$anonfun$2$$anonfun$apply$1.applyOrElse(PlayRequestHandler.scala:100)
+	at play.core.server.netty.PlayRequestHandler$$anonfun$2$$anonfun$apply$1.applyOrElse(PlayRequestHandler.scala:99)
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:346)
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:345)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32)
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:70)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.link(Promise.scala:304)
+	at scala.concurrent.impl.Promise$DefaultPromise.linkRootOf(Promise.scala:289)
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:255)
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:251)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+	at akka.dispatch.BatchingExecutor$BlockableBatch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:91)
+	at akka.dispatch.BatchingExecutor$BlockableBatch$$anonfun$run$1.apply(BatchingExecutor.scala:91)
+	at akka.dispatch.BatchingExecutor$BlockableBatch$$anonfun$run$1.apply(BatchingExecutor.scala:91)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:90)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:39)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:409)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.lang.RuntimeException: No EntityManager found in the context. Try to annotate your action method with @play.db.jpa.Transactional
+	at play.db.jpa.JPAEntityManagerContext.em(JPAEntityManagerContext.java:30)
+	at play.db.jpa.JPA.em(JPA.java:75)
+	at models.service.MedicamentoService.find(MedicamentoService.java:14)
+	at controllers.HomeController.getIndex(HomeController.java:17)
+	at router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.apply(Routes.scala:167)
+	at router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.apply(Routes.scala:167)
+	at play.core.routing.HandlerInvokerFactory$$anon$4.resultCall(HandlerInvoker.scala:157)
+	at play.core.routing.HandlerInvokerFactory$$anon$4.resultCall(HandlerInvoker.scala:156)
+	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$14$$anon$3$$anon$1.invocation(HandlerInvoker.scala:136)
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:73)
+	at play.http.HttpRequestHandler$1.call(HttpRequestHandler.java:54)
+	at play.core.j.JavaAction$$anonfun$7.apply(JavaAction.scala:108)
+	at play.core.j.JavaAction$$anonfun$7.apply(JavaAction.scala:108)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:70)
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
+	at scala.concurrent.impl.Future$.apply(Future.scala:31)
+	at scala.concurrent.Future$.apply(Future.scala:494)
+	at play.core.j.JavaAction.apply(JavaAction.scala:108)
+	at play.api.mvc.Action$$anonfun$apply$2$$anonfun$apply$5$$anonfun$apply$6.apply(Action.scala:112)
+	at play.api.mvc.Action$$anonfun$apply$2$$anonfun$apply$5$$anonfun$apply$6.apply(Action.scala:112)
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:21)
+	at play.api.mvc.Action$$anonfun$apply$2$$anonfun$apply$5.apply(Action.scala:111)
+	at play.api.mvc.Action$$anonfun$apply$2$$anonfun$apply$5.apply(Action.scala:110)
+	at scala.Option.map(Option.scala:146)
+	at play.api.mvc.Action$$anonfun$apply$2.apply(Action.scala:110)
+	at play.api.mvc.Action$$anonfun$apply$2.apply(Action.scala:103)
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:253)
+	... 14 common frames omitted
+2017-01-03 14:57:36,191 [ERROR] from application in application-akka.actor.default-dispatcher-5 - 
+
+! @72i3dho08 - Internal server error, for (GET) [/] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[RuntimeException: No EntityManager found in the context. Try to annotate your action method with @play.db.jpa.Transactional]]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:280)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:206)
+	at play.api.GlobalSettings$class.onError(GlobalSettings.scala:160)
+	at play.api.DefaultGlobal$.onError(GlobalSettings.scala:188)
+	at play.api.http.GlobalSettingsHttpErrorHandler.onServerError(HttpErrorHandler.scala:98)
+	at play.core.server.netty.PlayRequestHandler$$anonfun$2$$anonfun$apply$1.applyOrElse(PlayRequestHandler.scala:100)
+	at play.core.server.netty.PlayRequestHandler$$anonfun$2$$anonfun$apply$1.applyOrElse(PlayRequestHandler.scala:99)
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:346)
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:345)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32)
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:70)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.link(Promise.scala:304)
+	at scala.concurrent.impl.Promise$DefaultPromise.linkRootOf(Promise.scala:289)
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:255)
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:251)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+	at akka.dispatch.BatchingExecutor$BlockableBatch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:91)
+	at akka.dispatch.BatchingExecutor$BlockableBatch$$anonfun$run$1.apply(BatchingExecutor.scala:91)
+	at akka.dispatch.BatchingExecutor$BlockableBatch$$anonfun$run$1.apply(BatchingExecutor.scala:91)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:90)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:39)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:409)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.lang.RuntimeException: No EntityManager found in the context. Try to annotate your action method with @play.db.jpa.Transactional
+	at play.db.jpa.JPAEntityManagerContext.em(JPAEntityManagerContext.java:30)
+	at play.db.jpa.JPA.em(JPA.java:75)
+	at models.service.MedicamentoService.find(MedicamentoService.java:14)
+	at controllers.HomeController.getIndex(HomeController.java:17)
+	at router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.apply(Routes.scala:167)
+	at router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.apply(Routes.scala:167)
+	at play.core.routing.HandlerInvokerFactory$$anon$4.resultCall(HandlerInvoker.scala:157)
+	at play.core.routing.HandlerInvokerFactory$$anon$4.resultCall(HandlerInvoker.scala:156)
+	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$14$$anon$3$$anon$1.invocation(HandlerInvoker.scala:136)
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:73)
+	at play.http.HttpRequestHandler$1.call(HttpRequestHandler.java:54)
+	at play.core.j.JavaAction$$anonfun$7.apply(JavaAction.scala:108)
+	at play.core.j.JavaAction$$anonfun$7.apply(JavaAction.scala:108)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:70)
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
+	at scala.concurrent.impl.Future$.apply(Future.scala:31)
+	at scala.concurrent.Future$.apply(Future.scala:494)
+	at play.core.j.JavaAction.apply(JavaAction.scala:108)
+	at play.api.mvc.Action$$anonfun$apply$2$$anonfun$apply$5$$anonfun$apply$6.apply(Action.scala:112)
+	at play.api.mvc.Action$$anonfun$apply$2$$anonfun$apply$5$$anonfun$apply$6.apply(Action.scala:112)
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:21)
+	at play.api.mvc.Action$$anonfun$apply$2$$anonfun$apply$5.apply(Action.scala:111)
+	at play.api.mvc.Action$$anonfun$apply$2$$anonfun$apply$5.apply(Action.scala:110)
+	at scala.Option.map(Option.scala:146)
+	at play.api.mvc.Action$$anonfun$apply$2.apply(Action.scala:110)
+	at play.api.mvc.Action$$anonfun$apply$2.apply(Action.scala:103)
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:253)
+	... 14 common frames omitted
+2017-01-03 14:57:50,023 [INFO] from application in application-akka.actor.default-dispatcher-5 - Shutting down connection pool.
+2017-01-03 14:57:50,095 [INFO] from application in application-akka.actor.default-dispatcher-5 - Creating Pool for datasource 'default'
+2017-01-03 14:57:50,258 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-5 - datasource [default] bound to JNDI as DefaultDS
+2017-01-03 14:57:50,358 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-5 - Database [default] connected at jdbc:postgresql://95.95.106.16:5432/testedb
+2017-01-03 14:57:50,400 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-5 - Application started (Dev)
+2017-01-03 14:59:15,274 [INFO] from application in application-akka.actor.default-dispatcher-8 - Shutting down connection pool.
+2017-01-03 14:59:15,363 [INFO] from application in application-akka.actor.default-dispatcher-8 - Creating Pool for datasource 'default'
+2017-01-03 14:59:15,534 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-8 - datasource [default] bound to JNDI as DefaultDS
+2017-01-03 14:59:15,638 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-8 - Database [default] connected at jdbc:postgresql://95.95.106.16:5432/testedb
+2017-01-03 14:59:15,694 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-8 - Application started (Dev)
+2017-01-03 16:36:34,075 [INFO] from application in application-akka.actor.default-dispatcher-3 - Shutting down connection pool.
+2017-01-03 16:36:34,169 [INFO] from application in application-akka.actor.default-dispatcher-3 - Creating Pool for datasource 'default'
+2017-01-03 16:36:34,333 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-3 - datasource [default] bound to JNDI as DefaultDS
+2017-01-03 16:36:34,434 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-3 - Database [default] connected at jdbc:postgresql://95.95.106.16:5432/testedb
+2017-01-03 16:36:34,482 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-3 - Application started (Dev)
+2017-01-03 16:56:04,023 [WARN] from org.hibernate.engine.jdbc.spi.SqlExceptionHelper in application-akka.actor.default-dispatcher-10 - SQL Error: 0, SQLState: 23505
+2017-01-03 16:56:04,025 [ERROR] from org.hibernate.engine.jdbc.spi.SqlExceptionHelper in application-akka.actor.default-dispatcher-10 - ERROR: duplicate key value violates unique constraint "uk_n7rdw7xjmuw7fo39dkeut7rg3"
+  Detail: Key (nome)=(brufen) already exists.
+2017-01-03 16:56:04,054 [ERROR] from application in application-akka.actor.default-dispatcher-10 - 
+
+! @72i4368fg - Internal server error, for (PUT) [/api/medicamento] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement]]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:280)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:206)
+	at play.api.GlobalSettings$class.onError(GlobalSettings.scala:160)
+	at play.api.DefaultGlobal$.onError(GlobalSettings.scala:188)
+	at play.api.http.GlobalSettingsHttpErrorHandler.onServerError(HttpErrorHandler.scala:98)
+	at play.core.server.netty.PlayRequestHandler$$anonfun$2$$anonfun$apply$1.applyOrElse(PlayRequestHandler.scala:100)
+	at play.core.server.netty.PlayRequestHandler$$anonfun$2$$anonfun$apply$1.applyOrElse(PlayRequestHandler.scala:99)
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:346)
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:345)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32)
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:70)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.link(Promise.scala:304)
+	at scala.concurrent.impl.Promise$DefaultPromise.linkRootOf(Promise.scala:289)
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:255)
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:251)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+	at akka.dispatch.BatchingExecutor$BlockableBatch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:91)
+	at akka.dispatch.BatchingExecutor$BlockableBatch$$anonfun$run$1.apply(BatchingExecutor.scala:91)
+	at akka.dispatch.BatchingExecutor$BlockableBatch$$anonfun$run$1.apply(BatchingExecutor.scala:91)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:90)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:39)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:409)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1692)
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1602)
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1608)
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:1152)
+	at models.service.MedicamentoService.save(MedicamentoService.java:34)
+	at controllers.HomeController.createMedicamento(HomeController.java:72)
+	at router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$5$$anonfun$apply$5.apply(Routes.scala:209)
+	at router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$5$$anonfun$apply$5.apply(Routes.scala:209)
+	at play.core.routing.HandlerInvokerFactory$$anon$4.resultCall(HandlerInvoker.scala:157)
+	at play.core.routing.HandlerInvokerFactory$$anon$4.resultCall(HandlerInvoker.scala:156)
+	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$14$$anon$3$$anon$1.invocation(HandlerInvoker.scala:136)
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:73)
+	at play.http.HttpRequestHandler$1.call(HttpRequestHandler.java:54)
+	at play.db.jpa.TransactionalAction.lambda$call$4(TransactionalAction.java:28)
+	at play.db.jpa.DefaultJPAApi.lambda$withTransaction$3(DefaultJPAApi.java:196)
+	at play.db.jpa.DefaultJPAApi.withTransaction(DefaultJPAApi.java:137)
+	at play.db.jpa.DefaultJPAApi.withTransaction(DefaultJPAApi.java:195)
+	at play.db.jpa.TransactionalAction.call(TransactionalAction.java:25)
+	at play.core.j.JavaAction$$anonfun$7.apply(JavaAction.scala:108)
+	at play.core.j.JavaAction$$anonfun$7.apply(JavaAction.scala:108)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:70)
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
+	at scala.concurrent.impl.Future$.apply(Future.scala:31)
+	at scala.concurrent.Future$.apply(Future.scala:494)
+	at play.core.j.JavaAction.apply(JavaAction.scala:108)
+	at play.api.mvc.Action$$anonfun$apply$2$$anonfun$apply$5$$anonfun$apply$6.apply(Action.scala:112)
+	at play.api.mvc.Action$$anonfun$apply$2$$anonfun$apply$5$$anonfun$apply$6.apply(Action.scala:112)
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:21)
+	at play.api.mvc.Action$$anonfun$apply$2$$anonfun$apply$5.apply(Action.scala:111)
+	at play.api.mvc.Action$$anonfun$apply$2$$anonfun$apply$5.apply(Action.scala:110)
+	at scala.Option.map(Option.scala:146)
+	at play.api.mvc.Action$$anonfun$apply$2.apply(Action.scala:110)
+	at play.api.mvc.Action$$anonfun$apply$2.apply(Action.scala:103)
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:253)
+	... 14 common frames omitted
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:112)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:111)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:97)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:207)
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2827)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3398)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:597)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:232)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:213)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:256)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:318)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:275)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:182)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:113)
+	at org.hibernate.jpa.event.internal.core.JpaPersistEventListener.saveWithGeneratedId(JpaPersistEventListener.java:67)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:189)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:132)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:58)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:778)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:751)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:756)
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:1146)
+	... 47 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "uk_n7rdw7xjmuw7fo39dkeut7rg3"
+  Detail: Key (nome)=(brufen) already exists.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2270)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1998)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:255)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:570)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:420)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:366)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:204)
+	... 68 common frames omitted
